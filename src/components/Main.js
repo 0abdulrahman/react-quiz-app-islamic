@@ -3,7 +3,7 @@ import Start from "./Start";
 import Question from "./Question";
 import Finished from "./Finished";
 
-const TIME_PER_QUESTION = 20;
+const TIME_PER_QUESTION = 25;
 const intitialState = {
   questions: [],
   status: "loading",
