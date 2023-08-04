@@ -28,6 +28,13 @@ button {
   gap: 2rem;
 }
 
+@media (max-width: 450px) {
+  #root {
+    margin-top: 0;
+    gap: 0;
+  }
+}
+
 #root > div {
   display: flex;
   flex-direction: column;
@@ -46,6 +53,7 @@ header {
   header {
     flex-direction: column;
     gap: 0;
+    margin-top: 2rem;
   }
 }
 
@@ -134,13 +142,25 @@ header h1 {
 }
 
 #question h4 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: normal;
+}
+
+@media (max-width: 450px) {
+  #question h4 {
+    margin-block: 1rem;
+  }
 }
 
 #question ul {
   list-style: none;
   padding: 0;
+}
+
+@media (max-width: 450px) {
+  #question ul {
+    margin-top: 3rem;
+  }
 }
 
 #question ul li button {
@@ -242,7 +262,7 @@ header h1 {
   color: #61dafb;
 }
 
-@media (max-width: 355px) {
+@media (max-width: 450px) {
   #progress #details {
     flex-direction: column;
     margin: 2rem 0;
