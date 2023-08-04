@@ -264,8 +264,6 @@ header h1 {
 
 @media (max-width: 450px) {
   #progress #details {
-    flex-direction: column;
-    margin: 2rem 0;
     gap: 0.5rem;
   }
   #progress #details p {
