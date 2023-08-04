@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-quiz-app-islamic/static/css/main.8859a3f8.css",
+    "main.css": "/react-quiz-app-islamic/static/css/main.7803680b.css",
     "main.js": "/react-quiz-app-islamic/static/js/main.cc2e9a82.js",
     "index.html": "/react-quiz-app-islamic/index.html",
-    "main.8859a3f8.css.map": "/react-quiz-app-islamic/static/css/main.8859a3f8.css.map",
+    "main.7803680b.css.map": "/react-quiz-app-islamic/static/css/main.7803680b.css.map",
     "main.cc2e9a82.js.map": "/react-quiz-app-islamic/static/js/main.cc2e9a82.js.map"
   },
   "entrypoints": [
-    "static/css/main.8859a3f8.css",
+    "static/css/main.7803680b.css",
     "static/js/main.cc2e9a82.js"
   ]
 }
